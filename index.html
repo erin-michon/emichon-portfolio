@@ -4,34 +4,40 @@
        <meta charset="UTF-8" />
        <title> E. Michon: Portfolio </title>
    </head>
+
    <body>
 
-<!-- Header and Navigation-->
+<!-- Start Header and Navigation-->
        <header> 
-            <h1>
-               Erin C. Michon
-            </h1>
+            <div class=headshot >
+                <img class="headshot" src="https://via.placeholder.com/150" alt="picture of a woman from the shoulders up smiling at the camera.  Her hair is blonde and pulled back, she has blonde hair and fair skin">
+            </div>
+            
+            <h1>Erin C. Michon</h1>
+           
             <nav>
                 <ul>
                     <li>
-                        <a href="">About Me</a>
+                        <a href="#about-me">About Me</a>
                     </li>
                     <li>
-                        <a href="">Work</a>
+                        <a href="#work">Work</a>
                     </li>
                     <li>
-                        <a href="">Contact Info</a>
+                        <a href="#contact-info">Contact Info</a>
                     </li>
                 </ul>
             </nav>
+
         </header>
 
-        <section class="about-me">
+<!-- End Header and Navigation-->
+
+<!--Start About Me  -->
+
+        <section class="about-me" id="about-me">
             <h2> About Me </h2>
-            <img class="headshot"
-                src="./assets/images/emichonpic.jpg"
-                alt="picture of a woman from the shoulders up smiling at the camera.  Her hair is blonde and pulled back, she has blonde hair and fair skin">
-            
+                   
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi tempora optio enim ea consectetur veritatis iste similique nostrum aspernatur nesciunt, fuga architecto voluptatibus exercitationem repudiandae tempore. Necessitatibus commodi assumenda ea?</p>  
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A deleniti commodi quo modi odit excepturi nesciunt quis incidunt ad cumque natus eius iste possimus dolorem expedita obcaecati, consequatur atque non.</p>
@@ -40,11 +46,75 @@
 
         </section>
 
-        <section class="work">
+<!--End About Me  -->
+
+<!--Start Work Examples -->        
+
+        <section class="work" id="work">
             <h2> Work </h2>
+            
+            <div class="work-apps">
+                
+                <article class="app">
+                    <h3>Application 1</h3>
+                    <img src="https://via.placeholder.com/600" alt="example of work">
+                </article>    
+                
+                <article class="app">
+                    <h4>Application Example 2</h4>
+                    <img src="https://via.placeholder.com/150" alt="example of work">
+                </article>    
+                
+                <article class="app">
+                    <h4>Application Example 3</h4>
+                    <img src="https://via.placeholder.com/150" alt="example of work">
+                </article> 
+                
+                <article class="app">
+                    <h4>Application Example 4</h4>
+                    <img src="https://via.placeholder.com/150" alt="example of work">
+                </article>    
+                
+                <article class="app">
+                    <h4>Application Example 5</h4>
+                    <img src="https://via.placeholder.com/150" alt="example of work">
+                </article>       
+            
+            </div>
 
         </section>
 
-        <footer class="contact-info"></footer>
+<!--End Work Examples -->
+
+<!-- Start Contact Me/Footer  -->
+
+        <footer class="contact-info" id="contact-info">
+            
+            <h2> Contact Information </h2>
+
+            <address>
+
+                <div>
+                    P: 248.345.0473
+                </div>
+                
+                <div>
+                    E: <a href:="mailto:erin.michon@gmail.com">erin.michon@gmail.com</a>
+                </div>
+
+                <div>
+                    <a href="https://www.linkedin.com/in/erin-michon-b96320a/">LinkedIn</a>
+                </div>
+                    
+                <div>
+                    <a href="https://github.com/erin-michon">GitHub</a>
+                </div>
+
+            </address>
+            
+        </footer>
+
+<!-- End Contact Me/Footer  -->        
+
     </body> 
 </html>
