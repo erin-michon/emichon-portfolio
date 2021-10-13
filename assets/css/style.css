@@ -10,7 +10,7 @@
 /* Start Header and Navigation */
 
 header {
-    padding: 20px 30px;
+    padding: 20px 30px 20px 10px;
     background-color: #FAE319;
     display:flex;
     justify-content: space-between;
@@ -18,9 +18,8 @@ header {
 
 header h1 {
     font-weight: bold;
-    margin: 20px;
-    font-size:48px;
-    color: #FA0070;
+    margin: auto 0px;
+    font-size:46px;
 }
 
 header a {
@@ -33,5 +32,38 @@ header nav {
 
 header nav ul {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 20px 50px;
+}
+
+header nav ul li {
+    padding: 20px 50px;
+    font-size: 35px;
+}
+
+/* End Header and Navigation */
+
+/* Start Footer */
+
+footer {
+    background-color:#FAE319;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h2 {
+    padding: 15px;
+}
+
+footer .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+footer .info div {
+    padding: 20px;
 }
