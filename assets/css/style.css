@@ -7,19 +7,19 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 
-/* Start Header and Navigation */
+/* Start Header and Navigation Styling*/
 
 header {
     padding: 20px 30px 20px 10px;
     background-color: #FAE319;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 header h1 {
     font-weight: bold;
     margin: auto 0px;
-    font-size:46px;
+    font-size: 40px;
 }
 
 header a {
@@ -40,21 +40,23 @@ header nav ul {
 
 header nav ul li {
     padding: 20px 50px;
-    font-size: 35px;
+    font-size: 25px;
 }
 
-/* End Header and Navigation */
+/* End Header and Navigation Styling*/
 
-/* Start Footer */
+/* Start Footer Styling */
 
 footer {
     background-color:#FAE319;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 footer h2 {
     padding: 15px;
+    margin: auto;
+    font-size: 35px;
 }
 
 footer .info {
@@ -62,8 +64,35 @@ footer .info {
     justify-content: space-between;
     align-items: center;
     padding: 15px;
+    font-size: 20px;
 }
 
 footer .info div {
     padding: 20px;
+}
+
+/* End Footer Styling */
+
+/* About Me Styling */
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.about-me h2 {
+    margin: 20px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.about-me aside {
+    margin: 25 px;
+    padding: 15px;
+}
+
+.about-me p {
+    margin: 25px;
+    padding: 15px;
 }
