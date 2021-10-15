@@ -3,6 +3,7 @@
    <head>
        <meta charset="UTF-8" />
        <title> E. Michon: Portfolio </title>
+       <meta name="viewport" content="width=device-width, initial-scale=1" />
        <link rel="stylesheet" href="assets/css/style.css">
    </head>
 
@@ -10,9 +11,9 @@
 
 <!-- Start Header and Navigation-->
        <header>           
-            <img class="headshot" src="https://via.placeholder.com/150" alt="picture of a woman from the shoulders up smiling at the camera.  Her hair is blonde and pulled back, she has blonde hair and fair skin">
-
-            <h1>Erin C. Michon</h1>
+            <img class="headshot" src="./assets/images/emichonpic.jpg" alt="picture of a woman from the shoulders up smiling at the camera.  Her hair is blonde and pulled back, she has blonde hair and fair skin">
+            
+                <h1>Erin C. Michon</h1>     
 
             <nav class ="nav">
                 <ul>
@@ -35,8 +36,11 @@
 <!--Start About Me  -->
 
         <section class="about-me" id="about-me">
-            <h2> About Me </h2>
-            
+
+            <div class = "section-title">
+                <h2> About Me </h2>
+            </div>
+
             <aside>
 
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi tempora optio enim ea consectetur veritatis iste similique nostrum aspernatur nesciunt, fuga architecto voluptatibus exercitationem repudiandae tempore. Necessitatibus commodi assumenda ea?</p>  
@@ -54,34 +58,55 @@
 <!--Start Work Examples -->        
 
         <section class="work" id="work">
-            <h2> Work </h2>
-            
+
+            <div class = "section-title">
+                <h2> Work </h2>
+            </div>
+
             <aside class="work-apps">
                 
-                <article class="app">
-                    <h3>Application 1</h3>
-                    <img src="https://via.placeholder.com/600" alt="example of work">
+                <article class="primary-app">
+                    <img src= "./assets/images/runbuddyapp.JPG" alt="A landing page for a website designed to motivate users to physically run it shows text and an image of person bent over and tying a shoe">
+                    <div class = "app-description">
+                        <h3>Run Buddy</h3>
+                        <h4> Bootcamp Activity: HTML and CSS </h4>
+                    </div>
                 </article>    
                 
-                <article class="app">
-                    <h4>Application Example 2</h4>
-                    <img src="https://via.placeholder.com/150" alt="example of work">
-                </article>    
-                
-                <article class="app">
-                    <h4>Application Example 3</h4>
-                    <img src="https://via.placeholder.com/150" alt="example of work">
-                </article> 
-                
-                <article class="app">
-                    <h4>Application Example 4</h4>
-                    <img src="https://via.placeholder.com/150" alt="example of work">
-                </article>    
-                
-                <article class="app">
-                    <h4>Application Example 5</h4>
-                    <img src="https://via.placeholder.com/150" alt="example of work">
-                </article>       
+                <div class = "app-container">
+                    <article class="app">
+                        <img src="./assets/images/horiseon.JPG" alt="A website showing a header and an image of employees working together around a table">
+                        <div class = "app-description">
+                            <h3>Horiseon</h3>
+                            <h4> Bootcamp Challenge: Refactoring a Website </h4>
+                        </div>
+                    </article>    
+                    
+                    <article class="app">
+                        <img src="https://via.placeholder.com/250" alt="example of work">
+                        <div class = "app-description">
+                            <h3>Robot Gladiators</h3>
+                            <h4> Bootcamp Activity: JavaScript </h4>
+                        </div>
+                    </article> 
+                    
+                    <article class="app">
+                        <img src="https://via.placeholder.com/250" alt="example of work">
+                        <div class = "app-description">
+                            <h3>Future Project</h3>
+                            <h4> Coming Soon! </h4>
+                        </div>
+                    </article>    
+                    
+                    <article class="app">
+                        <img src="https://via.placeholder.com/250" alt="example of work">
+                        <div class = "app-description">
+                            <h3>Future Project</h3>
+                            <h4> Coming Soon! </h4>
+                        </div>
+                    </article> 
+
+                </div>      
             
             </aside>
 
