@@ -18,4 +18,4 @@ This is a README for the basic and inital build of my online portfolio, show-cas
 ![image info](./assets/images/mediaqueries.JPG "screenshot of the media queries on the css file")
 
 ## Deployed Application
-[E. Michon - Portfolio](https://erin-michon.github.io/Challenge1/)
+[E. Michon - Portfolio](https://erin-michon.github.io/emichon-portfolio/)
